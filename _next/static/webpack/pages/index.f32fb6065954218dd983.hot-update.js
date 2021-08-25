@@ -15,7 +15,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var ___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! . */ "./component/common/index.tsx");
 
 
-var _jsxFileName = "C:\\Users\\rudrh\\Desktop\\resume-nextjs\\component\\common\\CommonDescription.tsx";
+var _jsxFileName = "C:\\Users\\rudrh\\Desktop\\myprofile\\component\\common\\CommonDescription.tsx";
 
 /** Description Recusion Generator */
 

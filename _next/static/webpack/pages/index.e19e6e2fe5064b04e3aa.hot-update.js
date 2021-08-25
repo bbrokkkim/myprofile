@@ -18,7 +18,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _common_Util__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../common/Util */ "./component/common/Util.ts");
 /* harmony import */ var _common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../common */ "./component/common/index.tsx");
 
-var _jsxFileName = "C:\\Users\\rudrh\\Desktop\\resume-nextjs\\component\\project\\row.tsx";
+var _jsxFileName = "C:\\Users\\rudrh\\Desktop\\myprofile\\component\\project\\row.tsx";
 
 
 
