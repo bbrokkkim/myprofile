@@ -4,6 +4,24 @@ const experience: IExperience.Payload = {
   disable: false,
   list: [
     {
+      title: 'OPGG',
+      position: 'Back-end Developer',
+      startedAt: '2021-11',
+      descriptions: [
+      ],
+      skillKeywords: ['Nest js', 'kubernetes', 'GraphQL','jest', 'EKS Log system', 'CICD', 'redis', 'Aurora DB'],
+    },
+    {
+      title: 'CashWalk',
+      position: 'Back-end Developer',
+      startedAt: '2021-09',
+      endedAt: '2021-10',
+      descriptions: [
+        'isms 도입중 이직'
+      ],
+      skillKeywords: ['Express', 'AWS'],
+    },
+    {
       title: 'Pushnews',
       position: 'Back-end Developer',
       startedAt: '2021-05',
