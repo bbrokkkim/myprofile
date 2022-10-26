@@ -18,10 +18,10 @@
     "lint": "eslint 'component/**/**' './pages/**/*' './payload/**/*' './*.ts' --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://uyu423.github.io/resume-nextjs",
+  "homepage": "https://bbrokkkim.github.io/myprofile",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uyu423/resume-nextjs.git"
+    "url": "git+https://github.com/bbrokkkim/myprofile.git"
   },
   "keywords": [
     "resume",
@@ -35,7 +35,7 @@
   "contributors": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/uyu423/resume-nextjs/issues"
+    "url": "https://github.com/bbrokkkim/myprofile/issues"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
