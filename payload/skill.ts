@@ -4,47 +4,22 @@ const backend: ISkill.Skill = {
   category: 'Back-end',
   items: [
     {
-      title: 'Spring Boot'
+      title: 'Nestjs',
+    },
+    {
+      title: 'Spring Boot',
     },
     {
       title: 'Express',
     },
     {
-      title: 'Nest Js',
-    },
-    {
       title: 'Apollo Server',
     },
     {
-      title: 'django',
+      title: 'Django',
     },
   ],
 };
-
-const database: ISkill.Skill = {
-  category: 'RDS',
-  items: [
-    {
-      title: 'MySQL',
-    },
-    {
-      title: 'MariaDB',
-    },
-    {
-      title: 'Postgre',
-    },
-    {
-      title: 'Sqlite',
-    },
-    {
-      title: 'Cassandra',
-    },
-    {
-      title: 'Redis',
-    },
-  ],
-};
-
 
 const cicd: ISkill.Skill = {
   category: 'CICD',
@@ -53,19 +28,19 @@ const cicd: ISkill.Skill = {
       title: 'Jenkins',
     },
     {
-      title: 'github webhook',
+      title: 'Github webhook',
     },
   ],
 };
 
 const test: ISkill.Skill = {
-  category: 'TEST',
+  category: 'Test',
   items: [
     {
-      title: 'JUnit',
+      title: 'Jest',
     },
     {
-      title: 'Jest',
+      title: 'JUnit',
     },
   ],
 };
@@ -74,13 +49,10 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'React.js',
+      title: 'React',
     },
     {
       title: 'Apollo Client',
-    },
-    {
-      title: 'JQuery',
     },
   ],
 };
@@ -89,46 +61,32 @@ const aws: ISkill.Skill = {
   category: 'AWS',
   items: [
     {
-      title: 'EC2',
+      title: 'EKS',
     },
     {
-      title: 'ELB',
-    },
-    {
-      title: 'CodeDeploy',
-    },
-    {
-      title: 'S3',
+      title: 'Elasticache',
     },
     {
       title: 'RDS',
     },
-    {
-      title: 'SES',
-    },
-    {
-      title: 'route53',
-    },
-    
   ],
 };
 
 const versionControl: ISkill.Skill = {
   category: 'ETC',
   items: [
-    
     {
-      title: 'GraphQL',
+      title: 'kubernetes',
     },
     {
-      title: 'Git',
+      title: 'GraphQL',
     },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, cicd, test, frontend, aws, versionControl],
+  skills: [backend, cicd, test, frontend, aws, versionControl],
 };
 
 export default skill;

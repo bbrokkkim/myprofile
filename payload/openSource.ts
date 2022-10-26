@@ -19,7 +19,7 @@ const openSource: IOpenSource.Payload = {
       ],
     },
     {
-      title: 'NestJS',
+      title: 'NestjS',
       descriptions: [
         {
           content: 'A progressive Node.js framework',
